@@ -1,0 +1,21 @@
+.sdigital2{
+width: 95%;
+margin: auto;
+}
+
+.sdigital2 ul{
+display:flex;
+padding: 0;
+width: 300%;
+margin-left: 80px;
+}
+
+.sdigital2 li{
+list-style: none;
+
+
+}
+
+.video{
+padding: 20px;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libros y algo más</title>
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/info.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/fcontacto.css">
+
+</head>
+
+<body>
+    <header>
+    <div class="contenedor">
+        <a href="index.html" title="">
+        <h1 class="icon-libro">LIBROS Y ALGO MÁS</h1>
+         </a>
+        <input type="checkbox" id="menu-principal">
+        <label class="icon-menu" for="menu-principal"></label>
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="quienes.html">Quienes Somos</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="contacto.html">Contactos</a>
+
+        </nav>
+    </div>
+    </header>
+
+    <main>
+        <section id="banner">
+            <img src="img/contactenos.png">
+            <div class="contenedor">
+            <h2>Contactenos</h2>
+            <p> Correo electrónico: informacionlibrosyalgomas@gmail.com</p>
+            <p> Horario de atención:Lunes a Viernes 8:00 a 17:00</p>
+            <p> Líneas de atención: 3143304527 +57 1 3050790 ext 55 y  ext 59</p>
+            <p> Ubicación:Calle 93# 19-54 </p>
+
+            </div>  
+        </section>
+        <section id="bienvenidos">
+            <h2>FORMULARIO DE CONTACTO</h2>
+        </section>
+        
+        <section id="blog">
+            <form action="enviar.php" method="post">
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="text" name="correo" placeholder="Correo"required>
+            <input type="text" name="telefono" placeholder="Teléfono"required>
+        <input list="dependencia" placeholder="Dependencia" required>
+        <datalist id="dependencia">
+            <option value="Ediciones">
+            </option>
+            <option value="Tecnología">
+            </option>
+            <option value="Servicio al Cliente">
+            </option>
+            <option value="Facturación">
+            </option>
+        </datalist>
+        <textarea name="mensaje" placeholder="Escriba aqui su mensaje"required></textarea>
+        <input type="submit" value="ENVIAR" id="boton">
+
+         </form>
+
+
+
+        </section>
+    
+    
+    
+    </main>
+
+
+
+    <footer>
+        <div class="contenedor">
+            <p class="copy">Libros y Algo Más &copy; 2020 </p>
+            <div class="sociales"></div>
+            <a class="icon-facebook"  href="https://www.facebook.com/LibrosyLibrosEditorial/"></a>
+            <a class="icon-instagram" href="https://www.instagram.com/librosylibrosco/?hl=es-la"></a>
+            <a href="#"></a>
+
+        </div>
+
+    </footer>
+
+    </body>
+    </html>
